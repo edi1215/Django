@@ -1,0 +1,3 @@
+create venv myenv
+create django project mylist
+create django app todolist

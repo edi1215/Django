@@ -1,0 +1,27 @@
+What we know so far:
+we saw sections 20 & 21,
+We know what the objects / files of an open django project does.
+
+We set a load for static files in the index of templates dir.
+
+We know what view does (get data from model's and send the request to get response).
+models contain fields of data, each obejct is row in a table database.
+
+model is a class that fields will be table columns, model mapped to table i guess.
+
+we created Todolist object to be migrated
+then we do
+
+# add the object as a migrational object
+python manage.py makemigrations
+# make this object to be related to be possbile to be added to db
+# when an instance will exist?!
+# make a table of such objects in the db
+python manage.py migrate
+
+I deide to understand the struture:
+we have the django project which has manage.py and the objects of django procet,
+within mylist dir (wsgi, asgi, etc).
+
+Now, we also set a todolist dir, for the app, running on the django framework,
+that we set?
